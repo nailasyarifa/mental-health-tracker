@@ -27,8 +27,7 @@ SECRET_KEY = 'django-insecure-*nu^*z!+vu03yc&*o@-vnc1+iz#qyruydz2-od!^hu833vk=bi
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://pbp.cs.ui.ac.id/naila.syarifa/mentalhealthtracker", "http://pbp.cs.ui.ac.id/naila.syarifa/mentalhealthtracker"]
-
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "naila-syarifa-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
 # Application definition
 
